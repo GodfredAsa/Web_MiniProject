@@ -1,0 +1,615 @@
+@media(max-width: 480px) {
+  
+	
+}
+
+/* NAV BAR */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.grid-container{
+	color: white;
+	display: grid;
+	grid-template-columns: 2fr 6fr 4fr;
+	background-color: darkblue;
+}
+
+.container-1{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-left: 1.5rem;
+}
+
+#logo{
+	width: 3rem;
+	padding: 1rem 1rem 1rem ;
+	margin: 0.2rem 1rem 0 0;
+	border-radius: 90%;
+}
+
+.logo-name{
+	margin-right: 0;
+	padding: 0.5rem 0;
+	color: lightcoral;
+}
+.container-2{
+	margin-top:1rem;
+	padding: 0;
+}
+
+.nav li{
+	display: inline;
+	margin: 1rem;
+	
+}
+
+
+
+.nav a{
+	color: white;
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+
+
+
+.container-3 div{
+	display:inline;
+}
+
+.container-3 .input{
+	margin: 1.5rem 0 1rem 0;
+	padding: 0.6rem;
+	border-radius: 1rem  0  0 1rem;
+	outline: none;
+	text-align: center;
+	letter-spacing: 0.01rem;
+	width: 20rem;
+}
+
+.container-3 .fa{
+	color: white;
+	padding: 0.6rem;
+	margin-left: 0;
+	font-size: 1.1rem;
+	background-color: darkblue;
+}
+
+.fa-search:hover{
+	color: red;
+}
+
+	
+
+
+.fa-search{
+	outline: 0;
+/*	border: 1px solid white;*/
+}
+
+
+/*BODY SECTION OF THE STYLING  */
+
+.grid-body{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 80%;
+	margin: 1rem auto;
+	
+}
+
+.grid-body img{
+	width: 500px;
+	margin: 2px;
+	padding-left: 20px;
+	padding-right: 1px;
+}
+
+.grid-body p, .grid-body li{
+	font-size: 20px;
+	padding: 10px 0;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	
+	
+}
+
+.grid-body h1{
+	padding-top: 20px;
+	color: darkblue;
+	font-size: 30px;
+	text-align: center;
+	word-spacing: 2px;
+	font-family: poppins;
+}
+
+/* BOARD OF DIRECTORS */
+
+.board-members{
+	width: 80%;
+	margin: 2px auto;
+	text-align: center;
+	font-family: poppins;
+	font-size: 30px;
+	padding: 20px;
+	font-weight: 600;
+	color: darkblue;
+	font-size: 20px;
+}
+
+.index-p{
+	color: black;
+	padding: 2px 10px;
+	box-shadow: 2px 2px 2px 2px gray;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.log-name{
+	font-size: 20px;
+}
+
+/* SLIDER PART OF THE MAIN PAGE OF THE WORK */
+ 
+
+/*END OF SLIDER CSS */
+.board{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 80%;
+	margin: 9px  auto;
+/*	border: 1px solid red;*/
+	box-sizing: border-box;
+	background-color: white;
+	
+}
+
+.board-1{
+	box-sizing: border-box;
+	margin: 2px auto;
+/*	border: 1px solid darkblue;*/
+	box-shadow: 1px 3px 3px 3px gray;
+	padding-left: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+
+.fa:hover{
+	opacity: 0.8;
+}
+
+
+.board-img{
+	margin: 4px auto;
+	width: 60%;
+	border-radius:0;
+	
+}
+
+.board div{
+	text-align: center;
+	font-size: 10px;
+	padding: 3px;
+	margin: 5px 0;
+	font-family: poppins;
+}
+
+.board-1 p{
+	font-size: 20px;
+}
+
+
+.media-icons .fa{
+	color: black;
+	font-size: 35px;
+	margin: 3px;
+	padding: 3px;
+	color: blue;
+}
+
+.media-icons .fa-linkedin-square{
+	color: #3871B5;
+}
+
+.media-icons .fa-twitter{
+	color:#53A5E9;
+}
+
+
+
+.media-icons img{
+	width: 40px;
+	margin: 1px;
+}
+
+.media-icons a{
+	text-decoration: none;
+}
+
+/* BOARD OF DIRECTORS  */
+
+
+
+
+
+
+/*CONTACT PAGE CSS  */
+
+.contact-page{
+	width: 60%;
+	margin: 10px auto;
+/*	border: 2px solid red;*/
+	font-family: poppins;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+/*MAIN GRID CONTAINER */
+.content-contact-page{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.address{
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 100%;
+	text-align: center;
+	margin: 30px 0;
+	padding: 30px 0;
+	grid-gap: 70px;
+	
+}
+iframe{
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 2px 2px gray;
+	height: 400px;
+	margin-top: 10px;
+	margin-top: 10px;
+}
+
+textarea{
+	box-sizing: border-box;
+	height: 100px;
+	padding: 30px;
+	margin: 30px 0;
+	width: 90%;
+	border: 1px solid gray;
+	border: 1px solid darkblue;
+	
+}
+
+.form-contact{
+	box-shadow: 2px 2px 2px 2px gray;
+	padding-bottom: 40px;
+	
+}
+
+.send{
+	padding: 10px 40%;
+	width: 100%;
+	margin: 60px 50px;
+	background-color: darkblue;
+	color: white;
+	font-family: poppins;
+	font-size: 23px;
+	box-shadow: 1px 2px white;
+	font-weight:600;
+	outline:none;
+	border: 1px solid darkblue;
+	text-decoration: none;
+}
+
+.send:hover{
+	opacity:0.8;
+	color: white;
+}
+
+/* END OF CONTACT PAGE CSS */
+
+
+
+
+/*EBANK STYLING OF THE PAGE */
+
+.ebank-grid{
+	display: grid;
+	grid-template-columns: 1fr;
+/*	border: 1px solid red;*/
+	box-shadow: 2px 1px 1px 2px darkblue;
+	grid-gap: 10px;
+	width: 30%;
+	margin: 30px auto;
+	background-color: white;
+	
+}
+
+.inner-ebank-grid{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 8fr 4fr;
+}
+
+.ebank-grid-1{
+	padding: 50px 50px;
+	font-family: poppins;
+	margin:10px;
+	text-align: center;
+}
+
+.ebank-grid-1 p{
+	font-size: 20px;
+}
+.input-form{
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 1px;
+	outline: none;
+	width: 100%;
+	word-spacing: 8px;
+	font-size: 30px;
+}
+
+
+
+.logIn{
+	padding: 10px;
+	width: 106%;
+	margin: 30px 1px;
+	background-color: darkblue;
+	color: white;
+	font-family: poppins;
+	font-size: 23px;
+	box-shadow: 1px 2px white;
+	font-weight:600;
+	outline:none;
+	border: 1px solid darkblue;
+	
+}
+
+
+.logIn:hover{
+	opacity: 0.8;
+}
+
+
+/*END OF EBANK STYLING OF THE PAGE */
+
+
+/*PRODUCT PAGE */
+
+.product-page{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	width: 80%;
+	margin: 30px auto;
+	text-align: center;
+	font-family: poppins;
+	font-size: 20px;
+	word-spacing: 2px;
+/*	border: 1px solid red;*/
+	grid-gap: 10px;
+}
+
+.product-page h1{
+	padding-top: 10px;
+    color: darkblue;
+    font-size: 30px;
+    text-align: center;
+    word-spacing: 2px;
+    font-family: poppins;
+}
+
+table{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+thead, th, .row{
+	background-color: darkblue;
+	color: white;
+	padding: 10px;
+	margin: 0;
+}
+
+td{
+	font-size: 20px;
+	padding: 15px;
+  	text-align: left;
+}
+
+tbody{
+	background-color: burlywood;
+}
+
+
+.product-page .product-div{
+/*	border: 1px solid green;*/
+	width: 100%
+	margin: 0;
+	padding: 2px;
+	box-shadow: 2px 2px 2px 2px gray;
+	background-color: rgba(44,82,204,0);
+	text-align: center;
+	font-size: 16px;
+	}
+
+tfoot{
+	border-collapse: collapse;
+}
+
+/*CARD SECTION */
+
+.grid-card{
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-card img{
+	width: 250px;
+}
+
+.careers{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	
+}
+
+.careers span{
+	color: darkblue;
+	font-weight: 600;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+/* FOOTER SECTION OF STYLING */
+
+.footer{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #F7F7F7;
+	font-family: poppins, sans-serif;
+	
+	
+/*	remove the border-tom below */
+/*	border-bottom: 3px solid darkblue;*/
+}
+
+.footer-grid h1{
+	font-size: 5rem;
+	text-align: center;
+}
+
+.footer-grid{
+	width: 100% auto;
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	text-align: center;
+	padding: 0;
+	grid-gap: 0;
+	margin: 0 4rem;
+}
+
+.footer-1{
+	width: 100%;
+	margin:  auto;
+	box-sizing: border-box;
+	padding-bottom: 1.8rem
+}
+
+.footer-1 li, .footer-2 li{
+	text-align: left;
+	list-style: none;
+	padding: 0.2rem;
+	font-weight:500;
+	color: black;
+}
+
+.footer-1 a, .footer-2 a{
+	text-decoration: none;	
+	color: black;
+	font-size: 16px;
+}
+
+.footer-1 h1{
+	
+	font-size: 1.5rem;
+	padding-top: 1rem; 
+	margin: 0;
+	text-align: center;
+	border-bottom: 3px solid darkblue; 
+}
+
+.footer-2{
+	width: 100%;
+	margin:  auto;
+	box-sizing: border-box;
+	padding: 1rem;
+	font-family: poppins;
+	
+}
+
+.footer-2 h1{
+	
+	font-size: 1.5rem;
+	border-bottom: 3px solid darkblue;
+	text-align: center;
+}
+
+
+.footer-3{
+	width: 100%;
+	margin:  auto;
+	box-sizing: border-box;
+	
+}
+
+.footer-3 h1{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5rem;
+	border-bottom: 3px solid darkblue;
+	font-family: poppins;
+}
+
+.foot-img{
+	width: 82px;
+	border-radius: 10%;
+	margin: 0.2rem;
+	padding: 0.1rem;
+}
+
+a:hover{
+	color: lightcoral;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
